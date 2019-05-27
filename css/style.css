@@ -1,0 +1,229 @@
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fffbf7;
+    height: 420%;
+    position: absolute;
+    margin-left: 40px;
+}
+
+
+header {
+    position: fixed;
+}
+
+#logo {
+    justify-content: flex-start;
+    margin-right: 6px;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#streger {
+    border-bottom: solid 0.5px black;
+    border-top: solid 0.5px black;
+}
+
+.nav {
+    padding: 25px;
+    padding-bottom: 40px;
+    margin: 0px 5px -10px 0;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    margin-left: 7px;
+    text-align: center;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.forsidebillede {
+    width: 100%;
+}
+
+
+.flexboxheader {
+    text-align: center;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    background-color: #fffbf7;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    height: 70px;
+
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif #18593d;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    font-size: 12pt;
+}
+
+h2 {
+font-family: 'Caveat', cursive;
+        letter-spacing: 0.1em;
+    line-height: 1.7;
+    font-weight: 100;
+    margin-top: -50px;
+    color: green;
+    font-size: 14px;
+    
+}
+#konkurrence {
+margin-top: 60px;
+}
+#konkurrencebeskrivelse {
+margin-top: 30px;
+}
+
+#indhold {
+    margin-left: 220px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.indholdsbilleder {
+    width: 45%;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.indholdsbilleder1 {
+    width: 47%;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.indholdsbilleder2 {
+    width: 30%;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.indholdsbilleder3 {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flexcontainer1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fffbf7;
+    height: 420%;
+    position: absolute;
+    margin-left: 10px;
+        margin-top: 20px;
+}
+.flexcontainer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+.flexcontainer > div {
+    text-align: center;
+    background-color: #fffbf7;
+}
+
+.flexcontainer2 > div {
+    text-align: center;
+    border-width: thin;
+    background-color: #fffbf7;
+}
+
+.footerindhold {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #fffbf7;
+    height: 0%;
+    width: 114.5px;
+    position: absolute;
+    margin-left: 43px;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.socialemedier {
+    text-decoration: none;
+}
+
+
+@media (min-width: 500px) {
+
+
+    .flexcontainer {
+        margin-top: 25px;
+    }
+
+}
+
+@media (min-width: 700px) {
+
+
+    .flexcontainer {
+        margin-top: 50px;
+    }
+
+}
+
+@media (min-width: 1800px) {
+
+
+    .flexcontainer {
+        margin-top: 70px;
+    }
+
+
+
+}
